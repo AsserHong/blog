@@ -16,7 +16,7 @@ js引擎为单线程，意味着所有的任务最终都会在js引擎（主线�
     UI rendering 
 > micro-task(job) 微任务    
     
-    process.nextTick, MutationObserver
+    process.nextTick, MutationObserver, promise
 #### 事件循环执行机制
 一个事件循环中的大致过程
 
