@@ -13,7 +13,7 @@ js引擎为单线程，意味着所有的任务最终都会在js引擎（主线�
 > macro-task(task)宏任务
     
     script, setTimeout, setInterval, setImmediate, I/O,
-    UI rendering 
+    UI rendering, postMessage
 > micro-task(job) 微任务    
     
     process.nextTick, MutationObserver, promise, Object.observe
